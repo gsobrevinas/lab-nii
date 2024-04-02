@@ -87,14 +87,26 @@ body{
 </div>
 
 <div style="padding:20px;margin-top:30px;height:25px;">
-<h1 class ="stem">Welcome to Fontaine!</h1>
-<p class="intro">This is a website dedicated to showcase the Nation of Fontaine.</p>
+<p>In this example, x, y, and z are variables.</p>
+
+<p id="demo"></p>
+
+<script>
+var x = 5;
+var y = 6;
+var z = x + y;
+document.getElementById("demo").innerHTML =
+"The value of z is: " + z;
+</script>
 </div>
 
 <div class="ppp">
 <?php
 echo phpversion();
+
+
 ?>
+
 </div>
 
 </body>
