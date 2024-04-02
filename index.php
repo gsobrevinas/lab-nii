@@ -87,6 +87,10 @@ body{
 </div>
 
 <div style="padding:20px;margin-top:30px;height:25px;">
+
+</div>
+
+<div class="ppp">
 <p>In this example, x, y, and z are variables.</p>
 
 <p id="demo"></p>
@@ -98,18 +102,17 @@ var z = x + y;
 document.getElementById("demo").innerHTML =
 "The value of z is: " + z;
 </script>
-</div>
-
-<div class="ppp">
 <?php
 echo phpversion();
 ?>
+<br>
 <?php
 echo "<h2>PHP is Fun!</h2>";
 echo "Hello world!<br>";
 echo "I'm about to learn PHP!<br>";
 echo "This ", "string ", "was ", "made ", "with multiple parameters.";
 ?> 
+<br>
 <?php 
 $x = "Hello world!";
 $y = 'Hello world!';
@@ -118,27 +121,25 @@ var_dump($x);
 echo "<br>"; 
 var_dump($y);
 ?>
-
+<br>
 <?php
 $x = "John";
 echo "Hello $x";
 ?>
-
+<br>
 <?php
 $x = 10;  
 $y = 6;
 
 echo $x + $y;
 ?>  
-
-</div>
-
+<br>
 <?php
 if (5 > 3) {
   echo "Have a good day!";
 }
 ?>
-
+<br>
 <?php  
 $i = 1;
 
@@ -147,6 +148,7 @@ while ($i < 6) {
   $i++;
 } 
 ?>  
+<br>
 <?php
 function myMessage() {
   echo "Hello world!";
@@ -154,7 +156,7 @@ function myMessage() {
 
 myMessage();
 ?> 
-
+<br>
 <pre>
 
 <?php
@@ -164,7 +166,7 @@ var_dump($cars);
 ?>
 
 </pre>
-
+<br>
 <?php  
 $x = 75;
   
@@ -174,6 +176,14 @@ function myfunction() {
 
 myfunction()
 ?>  
+<br>
+<?php
+$str = "Visit W3Schools";
+$pattern = "/w3schools/i";
+echo preg_match($pattern, $str); 
+?>
+</div>
+
 
 </body>
 </html>
