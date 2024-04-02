@@ -118,6 +118,19 @@ var_dump($x);
 echo "<br>"; 
 var_dump($y);
 ?>
+
+<?php
+$x = "John";
+echo "Hello $x";
+?>
+
+<?php
+$x = 10;  
+$y = 6;
+
+echo $x + $y;
+?>  
+
 </div>
 
 </body>
