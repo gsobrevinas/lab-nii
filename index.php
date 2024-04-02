@@ -99,19 +99,25 @@ document.getElementById("demo").innerHTML =
 "The value of z is: " + z;
 </script>
 </div>
+
+<div class="ppp">
+<?php
+echo phpversion();
+?>
 <?php
 echo "<h2>PHP is Fun!</h2>";
 echo "Hello world!<br>";
 echo "I'm about to learn PHP!<br>";
 echo "This ", "string ", "was ", "made ", "with multiple parameters.";
 ?> 
-<div class="ppp">
-<?php
-echo phpversion();
+<?php 
+$x = "Hello world!";
+$y = 'Hello world!';
 
-
+var_dump($x);
+echo "<br>"; 
+var_dump($y);
 ?>
-
 </div>
 
 </body>
