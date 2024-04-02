@@ -147,6 +147,12 @@ while ($i < 6) {
   $i++;
 } 
 ?>  
+<?php
+function myMessage() {
+  echo "Hello world!";
+}
 
+myMessage();
+?> 
 </body>
 </html>
