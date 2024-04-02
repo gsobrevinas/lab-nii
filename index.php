@@ -133,5 +133,10 @@ echo $x + $y;
 
 </div>
 
+<?php
+if (5 > 3) {
+  echo "Have a good day!";
+}
+?>
 </body>
 </html>
