@@ -138,5 +138,15 @@ if (5 > 3) {
   echo "Have a good day!";
 }
 ?>
+
+<?php  
+$i = 1;
+
+while ($i < 6) {
+  echo $i;
+  $i++;
+} 
+?>  
+
 </body>
 </html>
